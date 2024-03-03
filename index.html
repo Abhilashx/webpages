@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    
+    <style>
+        /* CSS styles */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #049ff3d9; /* Background color of the page */
+        }
+
+        .profile-card {
+            width: 300px;
+            background-color: #85dbee; /* Background color of the profile card */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(20, 30, 225, 0.1); /* Box shadow for a subtle effect */
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            background-image: url('abi.jpg'); /* URL of the profile image */
+            background-size: cover; /* Ensure the image covers the entire box */
+            border-radius: 50%; /* Make it circular */
+            margin: 0 auto; /* Center the image */
+        }
+
+        .profile-info {
+            text-align: center;
+        }
+
+        .profile-info h2 {
+            color: #333; 
+            margin-top: 10px;
+        }
+
+        .profile-info p {
+            color: #c5131312; 
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .follower-box {
+            background-color: #1e90ff; /* Background color of the follower box */
+            color: #fff; /* Text color inside the follower box */
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="profile-image"></div>
+    
+    <div class="profile-info">
+        <h2 style="color: #ff5733;">Abhilash Sharma Paras</h2> <!-- Color of the name -->
+        <p style="color: #008080;">abhilashsharma425@mail.com</p> <!-- Color of the email -->
+        <p style="color: #0872d5;">Developer | Designer</p> <!-- Color of the profession -->
+
+        <div class="social-icons">
+            <!-- Add links to your social profiles -->
+            <a href="#" target="_blank"><img src="fb.png" alt=""></a>
+            <a href="#" target="_blank"><img src="insta.jpeg" alt=""></a>
+            <a href="#" target="_blank"><img src="twitter.png" alt=""></a>
+            <!-- Add more icons as needed -->
+        </div>
+
+        <div class="follower-box">20k Followers | 10k Following</div> <!-- Follower and following count with box -->
+    </div>
+</div>
+
+</body>
+</html>
